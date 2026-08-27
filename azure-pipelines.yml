@@ -24,7 +24,7 @@ pool:
 variables:
 
   # Azure service connections
-  acrServiceConnection: 'credpay-acr-sc'
+  acrServiceConnection: 'credpy-acr-sc'
   azureServiceConnection: 'credpysc'
 
   # ACR resource name (not the service connection name above) - needed for
