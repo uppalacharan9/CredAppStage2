@@ -29,7 +29,7 @@ variables:
 
   # ACR resource name (not the service connection name above) - needed for
   # `az aks update --attach-acr`, which takes the registry's own name.
-  acrName: 'credpayacr1'
+  acrName: 'credpaycr'
 
   # Image tag - every build is pushed as both $(tag) and :latest
   tag: '$(Build.BuildId)'
